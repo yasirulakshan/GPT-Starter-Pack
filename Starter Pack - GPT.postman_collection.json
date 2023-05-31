@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "3a678d74-2fc3-49f3-931d-f8823a6348c6",
+		"name": "Starter Pack - GPT",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17107547"
+	},
+	"item": [
+		{
+			"name": "Train",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/YasiruW/Downloads/Authentication Protocols-Part 2 - Jupyter Notebook.pdf"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/train",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"train"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "AskQuestion",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"question\": \"What are the block cyphers?\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5000/askQuestion",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"askQuestion"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

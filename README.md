@@ -99,3 +99,5 @@ http://<host>:<port>/askQuestion
     "question": "What is the name of the company?"
 }
 ```
+
+### You can use Postmon Request Collection in the project named that `Starter Pack - GPT.postman_collection.json` to test the API.
