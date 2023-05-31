@@ -9,7 +9,7 @@ The Question and Answering (Q&A) Bot is a powerful system that uses FAISS indexi
 First need to create python virtual environment.
 
 ```
-python -m venv /path/to/new/virtual/environment
+python -m venv <virtual-environment-name>
 ```
 
 Then need to activate Virtual Environment
